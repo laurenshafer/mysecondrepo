@@ -20,8 +20,9 @@ calcTotal(price,tax,name)
 # print out ONLY the integers in the list below #
 list1 = [1,'two',3.2,'four',5]
 
-for i in list1[::2]:
-    print(i)
+for i in list1:
+    if type(i) ==int:
+        print(i)
 
 
 
